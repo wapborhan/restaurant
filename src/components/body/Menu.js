@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import DISHES from "../../data/dishes";
 import MenuItem from "./MenuIteam";
 import DishDetail from "./DishDetails";
@@ -26,15 +26,17 @@ class Menu extends Component {
         />
       );
     });
+
     let dishDetail = null;
     if (this.state.selectedDish != null) {
       dishDetail = <DishDetail dish={this.state.selectedDish} />;
     }
+
     return (
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 d-flex">{menu}</div>
-          {dishDetail}
+          <div className="col-lg-6">{menu}</div>
+          <div className="col-lg-6 d-flex">{dishDetail}</div>
         </div>
       </div>
     );
