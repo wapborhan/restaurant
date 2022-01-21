@@ -15,6 +15,13 @@ const DISHES = [
         author: "Borhan Uddin",
         date: "2022-01-16T17:57:28.556094Z",
       },
+      {
+        id: 1,
+        rating: 5,
+        comment: "Its Very Amezing.",
+        author: "Hridoy",
+        date: "2022-01-16T17:57:28.556094Z",
+      },
     ],
   },
   {
@@ -49,7 +56,7 @@ const DISHES = [
         rating: 5,
         comment: "Good Test",
         author: "Borhan Uddin",
-        date: "2022-01-16T17:57:28.556094Z",
+        date: "2022-01-21T17:57:28.556094Z",
       },
     ],
   },

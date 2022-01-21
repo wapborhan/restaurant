@@ -9,3 +9,9 @@
   width: 250px !important;
   height: 250px !important;
 }
+.dish img{
+  width: 100%;
+}
+.card-subtitle > div {
+  margin: 0 15px 0 0;
+}

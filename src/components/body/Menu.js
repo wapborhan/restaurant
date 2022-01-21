@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import DISHES from "../../data/dishes";
 import MenuItem from "./MenuIteam";
 import DishDetail from "./DishDetails";
@@ -11,7 +11,6 @@ class Menu extends Component {
 
   onDishSelect = (dish) => {
     this.setState({ selectedDish: dish });
-    console.log(dish);
   };
 
   render() {
@@ -35,8 +34,10 @@ class Menu extends Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">{menu}</div>
-          <div className="col-lg-6 d-flex">{dishDetail}</div>
+          <div className="col-lg-12 d-flex">{menu}</div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12 d-flex">{dishDetail}</div>
         </div>
       </div>
     );

@@ -2,36 +2,40 @@ import React from "react";
 import {
   Card,
   CardImg,
-  cardImgOverlay,
-  CardBody,
+  CardImgOverlay,
   CardTitle,
   CardColumns,
-  Button,
-  CardSubtitle,
-  CardText,
 } from "reactstrap";
 
 const MenuItem = (props) => {
   return (
-    <div className="mx-2 mt-5">
+    <div className="mx-2 mt-2">
       <CardColumns>
-        <Card body color="primary" inverse>
+        <Card
+          style={{ cursor: "pointer", width: "350px", height: "250px" }}
+          onClick={props.selectDish}
+        >
           <CardImg
             alt="Card image cap"
             src={props.dish.image}
             top
-            width="250px !important"
-            height="250px"
-            className="img-thumbnail rounded cdimg"
+            className="img-thumbnail rounded"
+            style={{ width: "350px", height: "250px" }}
           />
-          <CardBody>
-            <CardTitle tag="h5">{props.dish.name}</CardTitle>
-            <CardSubtitle className="mb-2 text-muted" tag="h6">
-              Price: {props.dish.price}
-            </CardSubtitle>
-            <CardText>Description: {props.dish.description}</CardText>
-            <Button onClick={props.selectDish}>Details</Button>
-          </CardBody>
+          <CardImgOverlay>
+            <CardTitle
+              style={{
+                background: "#888888d4",
+                borderRadius: "10px",
+                padding: "10px",
+                width: "40%",
+                color: "#fff",
+              }}
+              tag="h5"
+            >
+              {props.dish.name}
+            </CardTitle>
+          </CardImgOverlay>
         </Card>
       </CardColumns>
     </div>
