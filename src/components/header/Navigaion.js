@@ -6,7 +6,9 @@ const Navigation = () => {
   return (
     <div>
       <Navbar dark color="dark">
-        <NavbarBrand href="/">Resturant</NavbarBrand>
+        <div className="container">
+          <NavbarBrand href="/">Restaurant</NavbarBrand>
+        </div>
       </Navbar>
     </div>
   );
