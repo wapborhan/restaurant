@@ -17,6 +17,42 @@ const DISHES = [
       },
     ],
   },
+  {
+    id: 1,
+    name: "Ckiken Burger",
+    image: "assets/images/Chicken-Burger.jpg",
+    category: "Chiken",
+    label: "Hot",
+    price: "650",
+    description: "Unique Dishes",
+    comments: [
+      {
+        id: 0,
+        rating: 5,
+        comment: "Good Test",
+        author: "Borhan Uddin",
+        date: "2022-01-16T17:57:28.556094Z",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Pizza",
+    image: "assets/images/pizza.jpg",
+    category: "Chiken",
+    label: "Hot",
+    price: "1250",
+    description: "Unique Pizza",
+    comments: [
+      {
+        id: 0,
+        rating: 5,
+        comment: "Good Test",
+        author: "Borhan Uddin",
+        date: "2022-01-16T17:57:28.556094Z",
+      },
+    ],
+  },
 ];
 
 export default DISHES;
