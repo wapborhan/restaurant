@@ -22,7 +22,7 @@ const DishDetail = (props) => {
           <div className="comments text-left mt-5">
             <h2>Comments</h2>
             <hr />
-            <LoadComment comments={props.dish.comments} />
+            <LoadComment comments={props.comments} />
           </div>
         </CardBody>
       </Card>

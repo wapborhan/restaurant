@@ -139,7 +139,7 @@ export default class Contact extends Component {
                         name="message"
                         value={this.state.message}
                         onChange={this.handleInputChange}
-                        rows="7"
+                        rows="6"
                       ></Input>
                     </Col>
                   </FormGroup>
