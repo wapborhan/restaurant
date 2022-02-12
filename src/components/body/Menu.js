@@ -45,12 +45,12 @@ class Menu extends Component {
         <DishDetail dish={this.state.selectedDish} comments={comments} />
       );
     }
-
+    document.title = "Menu List";
     return (
       <div className="container">
         <div className="row">
-          <CardColumns>{menu}</CardColumns>
-          <Modal isOpen={this.state.modalOpen}>
+          <CardColumns className="mt-3">{menu}</CardColumns>
+          <Modal size="lg" isOpen={this.state.modalOpen}>
             <ModalBody>{dishDetail}</ModalBody>
             <ModalFooter>
               <Button color="secondary" onClick={this.toggleModal}>

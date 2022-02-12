@@ -9,7 +9,7 @@ import {
 
 const MenuItem = (props) => {
   return (
-    <div className="mx-2 mt-2">
+    <div>
       <Card
         style={{ cursor: "pointer", width: "350px", height: "250px" }}
         onClick={props.selectDish}
@@ -27,7 +27,7 @@ const MenuItem = (props) => {
               background: "#888888d4",
               borderRadius: "10px",
               padding: "10px",
-              width: "40%",
+              width: "50%",
               color: "#fff",
             }}
             tag="h5"

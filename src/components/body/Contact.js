@@ -34,6 +34,7 @@ export default class Contact extends Component {
   };
 
   render() {
+    document.title = "Contact";
     return (
       <div className="container">
         <div className="row">
