@@ -2,9 +2,6 @@
   text-align: center;
 }
 
-.card-columns {
-  column-count: 1 !important;
-}
 .cdimg{
   width: 250px !important;
   height: 250px !important;
