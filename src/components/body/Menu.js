@@ -7,7 +7,7 @@ import { CardColumns, Modal, ModalBody, ModalFooter, Button } from "reactstrap";
 import { connect } from "react-redux";
 
 const mapStateToProps = (state) => {
-  console.log(state);
+  // console.log(state);
   return {
     dishes: state.dishes,
     comments: state.comments,

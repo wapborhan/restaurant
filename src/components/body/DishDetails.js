@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import CardImg from "reactstrap/lib/CardImg";
 import LoadComment from "./LoadComment";
+import CommentForm from "./CommentForm";
 
 const DishDetail = (props) => {
   return (
@@ -23,6 +24,8 @@ const DishDetail = (props) => {
             <h2>Comments</h2>
             <hr />
             <LoadComment comments={props.comments} />
+            <CommentForm />
+            <hr />
           </div>
         </CardBody>
       </Card>
