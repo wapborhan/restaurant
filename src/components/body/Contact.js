@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input, Col } from "reactstrap";
+import { LocalForm, Control, Errors } from "react-redux-form";
 
 export default class Contact extends Component {
   constructor(props) {
@@ -47,7 +48,7 @@ export default class Contact extends Component {
                 <h3>Send Us Your Feedback</h3>
               </div>
               <div className="card-body">
-                <Form onSubmit={this.handleSubmit}>
+                <LocalForm onSubmit={this.handleSubmit}>
                   <FormGroup row>
                     <Label htmlFor="fristName" md={3}>
                       First Name:
@@ -151,7 +152,7 @@ export default class Contact extends Component {
                       </Button>
                     </Col>
                   </FormGroup>
-                </Form>
+                </LocalForm>
               </div>
             </div>
           </div>
