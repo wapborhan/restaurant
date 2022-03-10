@@ -2,13 +2,15 @@
   text-align: center;
 }
 
-.cdimg{
+.cdimg {
   width: 250px !important;
   height: 250px !important;
 }
-.dish img{
+
+.dish img {
   width: 100%;
 }
-.card-subtitle > div {
+
+.card-subtitle>div {
   margin: 0 15px 0 0;
 }
