@@ -5,7 +5,11 @@ import MenuItem from "./MenuIteam";
 import DishDetail from "./DishDetails";
 import { CardColumns, Modal, ModalBody, ModalFooter, Button } from "reactstrap";
 import { connect } from "react-redux";
-import { addComment, fetchDishes } from "../../redux/actionCreators";
+import {
+  addComment,
+  fetchDishes,
+  fetchCommnets,
+} from "../../redux/actionCreators";
 import Loading from "./Loading";
 
 const mapStateToProps = (state) => {
@@ -21,6 +25,7 @@ const mapDispatchToProps = (dispatch) => {
     addComment: (dishId, rating, author, comment) =>
       dispatch(addComment(dishId, rating, author, comment)),
     fetchDishes: () => dispatch(fetchDishes()),
+    fetchCommnets: () => dispatch(fetchCommnets()),
   };
 };
 
@@ -44,6 +49,7 @@ class Menu extends Component {
 
   componentDidMount() {
     this.props.fetchDishes();
+    this.props.fetchCommnets();
   }
 
   render() {
@@ -70,7 +76,7 @@ class Menu extends Component {
 
       let dishDetail = null;
       if (this.state.selectedDish != null) {
-        const comments = this.props.comments.filter((comment) => {
+        const comments = this.props.comments.comments.filter((comment) => {
           return comment.dishID === this.state.selectedDish.id;
         });
         dishDetail = (
@@ -78,6 +84,7 @@ class Menu extends Component {
             dish={this.state.selectedDish}
             comments={comments}
             addComment={this.props.addComment}
+            commntsIsLoading={this.props.comments.isLoading}
           />
         );
       }
