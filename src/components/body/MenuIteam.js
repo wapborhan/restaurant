@@ -6,6 +6,7 @@ import {
   CardTitle,
   CardColumns,
 } from "reactstrap";
+import { baseUrl } from "../../redux/baseUrl";
 
 const MenuItem = (props) => {
   return (
@@ -16,7 +17,7 @@ const MenuItem = (props) => {
       >
         <CardImg
           alt="Card image cap"
-          src={props.dish.image}
+          src={baseUrl + props.dish.image}
           top
           className="img-thumbnail rounded"
           style={{ width: "350px", height: "250px" }}

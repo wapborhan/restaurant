@@ -3,13 +3,17 @@ import { Card, CardBody, CardTitle, CardSubtitle, CardText } from "reactstrap";
 import CardImg from "reactstrap/lib/CardImg";
 import LoadComment from "./LoadComment";
 import CommentForm from "./CommentForm";
+import { baseUrl } from "../../redux/baseUrl";
 
 const DishDetail = (props) => {
   return (
     <div>
       <Card>
         <CardBody>
-          <CardImg src={props.dish.image} alt={props.dish.name}></CardImg>
+          <CardImg
+            src={baseUrl + props.dish.image}
+            alt={props.dish.name}
+          ></CardImg>
           <CardText className="mt-3">Name: {props.dish.name}</CardText>
           <CardTitle tag="h5">Price: {props.dish.price}</CardTitle>
           <CardSubtitle

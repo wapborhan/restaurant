@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Ginger Burger",
-      "image": "assets/images/zinger-burger.jpg",
+      "image": "images/zinger-burger.jpg",
       "category": "Meal",
       "label": "Hot",
       "price": "999",
@@ -13,7 +13,7 @@
     {
       "id": 1,
       "name": "Ckiken Burger",
-      "image": "assets/images/Chicken-Burger.jpg",
+      "image": "images/Chicken-Burger.jpg",
       "category": "Chiken",
       "label": "Hot",
       "price": "650",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "name": "Pizza",
-      "image": "assets/images/pizza.jpg",
+      "image": "images/pizza.jpg",
       "category": "Chiken",
       "label": "Hot",
       "price": "1250",
@@ -33,7 +33,7 @@
     {
       "id": 3,
       "name": "khichuri",
-      "image": "assets/images/khichuri.Jpeg",
+      "image": "images/khichuri.Jpeg",
       "category": "dal",
       "label": "Hot",
       "price": "350",
@@ -43,7 +43,7 @@
     {
       "id": 4,
       "name": "Chicken Fry",
-      "image": "assets/images/chicken-fry.jpg",
+      "image": "images/chicken-fry.jpg",
       "category": "Chiken",
       "label": "Hot",
       "price": "550",
@@ -53,7 +53,7 @@
     {
       "id": 5,
       "name": "Fish Fry",
-      "image": "assets/images/fish-fry.jpg",
+      "image": "images/fish-fry.jpg",
       "category": "Fish",
       "label": "Hot",
       "price": "250",
