@@ -6,6 +6,7 @@ import CommentForm from "./CommentForm";
 import { baseUrl } from "../../redux/baseUrl";
 
 const DishDetail = (props) => {
+  console.log(props);
   return (
     <div>
       <Card>
@@ -31,7 +32,7 @@ const DishDetail = (props) => {
               comments={props.comments}
               commntsIsLoading={props.commntsIsLoading}
             />
-            <CommentForm dishID={props.dish.id} addComment={props.addComment} />
+            <CommentForm dishId={props.dish.id} addComment={props.addComment} />
             <hr />
           </div>
         </CardBody>

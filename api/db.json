@@ -63,7 +63,7 @@
   ],
   "comments": [
     {
-      "dishID": 0,
+      "dishId": 0,
       "id": 0,
       "rating": 5,
       "comment": "Good Test",
@@ -71,7 +71,7 @@
       "date": "2021-07-16T17:57:28.556094Z"
     },
     {
-      "dishID": 3,
+      "dishId": 3,
       "id": 1,
       "rating": 5,
       "comment": "Its Very Amezing.",
@@ -79,7 +79,7 @@
       "date": "2022-09-16T17:57:28.556094Z"
     },
     {
-      "dishID": 0,
+      "dishId": 0,
       "id": 2,
       "rating": 5,
       "comment": "Good Test",
@@ -87,12 +87,36 @@
       "date": "2022-04-16T17:57:28.556094Z"
     },
     {
-      "dishID": 1,
+      "dishId": 1,
       "id": 3,
       "rating": 5,
       "comment": "Its Very Amezing.",
       "author": "Hridoy",
       "date": "2021-01-16T17:57:28.556094Z"
+    },
+    {
+      "dishId": 2,
+      "author": "Borhan",
+      "rating": "5",
+      "comment": "Nog",
+      "date": "2022-03-12T12:14:41.868Z",
+      "id": 9
+    },
+    {
+      "dishId": 2,
+      "author": "Zihad",
+      "rating": "3",
+      "comment": "jujyjuj",
+      "date": "2022-03-12T12:16:05.771Z",
+      "id": 10
+    },
+    {
+      "dishId": 2,
+      "author": "Test",
+      "rating": "4",
+      "comment": "awrfgvrwevrewv",
+      "date": "2022-03-12T12:28:33.760Z",
+      "id": 11
     }
   ],
   "feedback": []
