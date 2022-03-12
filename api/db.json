@@ -1,0 +1,26 @@
+{
+  "dishes": [
+    {
+      "id": 0,
+      "name": "Burger",
+      "price": "199"
+    },
+    {
+      "id": 1,
+      "name": "Biscuts",
+      "price": "10"
+    },
+    {
+      "name": "Chiken Fry",
+      "price": "250",
+      "id": 2
+    },
+    {
+      "name": "Pizza",
+      "price": "799",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "feedback": []
+}
