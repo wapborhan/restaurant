@@ -1,7 +1,6 @@
 import * as actionType from "./actionType";
 import axios from "axios";
 import { baseUrl } from "./baseUrl";
-import { type } from "@testing-library/user-event/dist/type";
 
 export const addComment = (dishId, rating, author, comment) => (dispatch) => {
   const newComment = {
