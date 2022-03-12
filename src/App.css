@@ -14,3 +14,29 @@
 .card-subtitle>div {
   margin: 0 15px 0 0;
 }
+
+.banner {
+  height: 90vh;
+}
+
+.contect {
+  display: inline-block;
+  margin-top: 100px;
+  background: rgba(185, 185, 185, 0.575);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.banner h1 {
+
+  font-size: 100px;
+  color: coral;
+  text-shadow: 4px 4px 4px #464646;
+}
+
+.banner h3 {
+  padding-top: 40px;
+  font-size: 100px;
+  color: rgb(212, 2, 195);
+  text-shadow: 4px 4px 4px #464646;
+}

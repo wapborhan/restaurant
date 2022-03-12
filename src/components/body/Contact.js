@@ -189,7 +189,7 @@ class Contact extends Component {
                       <Control.textarea
                         model=".message"
                         name="message"
-                        rows="6"
+                        rows="2"
                         className="form-control"
                         validators={{ required }}
                       />
