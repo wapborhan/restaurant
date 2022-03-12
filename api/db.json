@@ -2,25 +2,98 @@
   "dishes": [
     {
       "id": 0,
-      "name": "Burger",
-      "price": "199"
+      "name": "Ginger Burger",
+      "image": "assets/images/zinger-burger.jpg",
+      "category": "Meal",
+      "label": "Hot",
+      "price": "999",
+      "featured": true,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
     },
     {
       "id": 1,
-      "name": "Biscuts",
-      "price": "10"
+      "name": "Ckiken Burger",
+      "image": "assets/images/Chicken-Burger.jpg",
+      "category": "Chiken",
+      "label": "Hot",
+      "price": "650",
+      "featured": false,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
     },
     {
-      "name": "Chiken Fry",
-      "price": "250",
-      "id": 2
-    },
-    {
+      "id": 2,
       "name": "Pizza",
-      "price": "799",
-      "id": 3
+      "image": "assets/images/pizza.jpg",
+      "category": "Chiken",
+      "label": "Hot",
+      "price": "1250",
+      "featured": false,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+    },
+    {
+      "id": 3,
+      "name": "khichuri",
+      "image": "assets/images/khichuri.Jpeg",
+      "category": "dal",
+      "label": "Hot",
+      "price": "350",
+      "featured": false,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+    },
+    {
+      "id": 4,
+      "name": "Chicken Fry",
+      "image": "assets/images/chicken-fry.jpg",
+      "category": "Chiken",
+      "label": "Hot",
+      "price": "550",
+      "featured": false,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
+    },
+    {
+      "id": 5,
+      "name": "Fish Fry",
+      "image": "assets/images/fish-fry.jpg",
+      "category": "Fish",
+      "label": "Hot",
+      "price": "250",
+      "featured": false,
+      "description": "Unique DishesThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham."
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "dishID": 0,
+      "id": 0,
+      "rating": 5,
+      "comment": "Good Test",
+      "author": "Borhan Uddin",
+      "date": "2021-07-16T17:57:28.556094Z"
+    },
+    {
+      "dishID": 3,
+      "id": 1,
+      "rating": 5,
+      "comment": "Its Very Amezing.",
+      "author": "Hridoy",
+      "date": "2022-09-16T17:57:28.556094Z"
+    },
+    {
+      "dishID": 0,
+      "id": 2,
+      "rating": 5,
+      "comment": "Good Test",
+      "author": "Borhan Uddin",
+      "date": "2022-04-16T17:57:28.556094Z"
+    },
+    {
+      "dishID": 1,
+      "id": 3,
+      "rating": 5,
+      "comment": "Its Very Amezing.",
+      "author": "Hridoy",
+      "date": "2021-01-16T17:57:28.556094Z"
+    }
+  ],
   "feedback": []
 }
