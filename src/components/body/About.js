@@ -4,7 +4,7 @@ export default function About() {
   document.title = "About";
   return (
     <div className="container">
-      <div className="row mt-5">
+      <div className="row mt-5 mb-5">
         <div className="col-lg-4">
           <img src="assets/about.jpg" className="img-fluid" alt="" />
         </div>

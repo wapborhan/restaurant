@@ -11,10 +11,7 @@ const DishDetail = (props) => {
     <div>
       <Card>
         <CardBody>
-          <CardImg
-            src={baseUrl + props.dish.image}
-            alt={props.dish.name}
-          ></CardImg>
+          <CardImg src={props.dish.image} alt={props.dish.name}></CardImg>
           <CardText className="mt-3">Name: {props.dish.name}</CardText>
           <CardTitle tag="h5">Price: {props.dish.price}</CardTitle>
           <CardSubtitle
