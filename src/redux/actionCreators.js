@@ -12,7 +12,7 @@ export const addComment = (dishId, rating, author, comment) => (dispatch) => {
   newComment.date = new Date().toISOString();
 
   axios
-    .post(baseUrl + "comments", newComment)
+    .post(baseUrl + "comments.json", newComment)
     .then((res) => res.data)
     .then((comment) => dispatch(commentConcat(comment)));
 };
@@ -38,7 +38,7 @@ export const fetchDishes = () => {
     dispatch(dishesLoading());
 
     axios
-      .get(baseUrl + "dishes")
+      .get(baseUrl + "dishes.json")
       .then((res) => res.data)
       .then((dishes) => dispatch(loadDishes(dishes)));
   };
@@ -60,7 +60,7 @@ export const fetchCommnets = () => {
     dispatch(commentLoading());
 
     axios
-      .get(baseUrl + "comments")
+      .get(baseUrl + "/comments.json")
       .then((res) => res.data)
       .then((comments) => dispatch(loadComments(comments)));
   };
